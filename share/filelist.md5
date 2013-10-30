@@ -1,0 +1,20 @@
+name: eztika
+version: 1.5.0.201108261043
+files_count: 16
+
+7e934f839eff796a09913243eb17223f  CHANGELOG.txt
+9f0df234fa0b52a56db92422f1ed1677  INSTALL
+cc6a859ed0fa8359f07ada2927cccaf6  INSTALL.txt
+4f5ed9d46b7bfe772078c1c2e78ea911  LICENSE
+f047378448c8aaa1bfc2626ffd374897  README
+96db888c863db2fd226fd285e5db308a  README.txt
+e687e97109f2533ffba875ac8bbce04b  RELEASES.txt
+130ebbd867ddf0fcf6bb23c9828af89c  bin/ezpdftotext
+b09543a5ad7082dc3383337a8d07d797  bin/eztika
+46655b2a499f023a540a3231815b0cf0  bin/tika.jar
+e610333d128ebae35833436445c28588  classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php
+dd7b2cd1c4fa9c0c1502b25d08b9277a  extension.xml
+acd4ebc3080af3e9e7730dd743c34191  ezinfo.php
+51275ee37b11d2d7eb577a0f632b3c93  settings/binaryfile.ini.append.php
+6850210d93114abb54c8884c1f39aaca  settings/binaryfile.ini.append.withxpdf.php
+422ac7b2f04e7b3830cd06e38cfaf3b5  settings/eztika.ini

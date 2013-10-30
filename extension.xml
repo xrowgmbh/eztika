@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<software>
+    <metadata>
+        <name>eZ Tika</name>
+        <version>1.5.0.201108261043</version>
+        <copyright>Copyright © 2008-2011 Paul Borgermans</copyright>
+        <license>GNU General Public License v2.0</license>
+        <info_url>http://projects.ez.no/eztika</info_url>
+
+        <software>
+            <uses>
+                <name>Tika</name>
+                <license>Apache License, Version 2.0</license>
+                <info_url>http://tika.apache.org/</info_url>
+                <version>1.0-dev svn (rev 1156078)</version>
+            </uses>
+        </software>
+    </metadata>
+</software>
