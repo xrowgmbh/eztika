@@ -1,11 +1,8 @@
 <?php /*
 
 [HandlerSettings]
-
 ExtensionRepositories[]=eztika/classes/datatypes/ezbinaryfile
-
 MetaDataExtractor[application/pdf]=ezmulti
-
 MetaDataExtractor[application/msword]=ezmulti
 MetaDataExtractor[application/vnd.ms-excel]=ezmulti
 MetaDataExtractor[application/vnd.ms-powerpoint]=ezmulti
@@ -25,11 +22,9 @@ MetaDataExtractor[application/vnd.openxmlformats-officedocument.presentationml.p
 #octet-stream is the default
 #If tika senses a known format like the Office 2007 ooxml types, it will treat them well
 MetaDataExtractor[application/octet-stream]=ezmulti
-[MultiHandlerSettings]
 
+[MultiHandlerSettings]
 #Change the path to the eztika shell script, which probably needs editing as well
 TextExtractionTool=./extension/eztika/bin/eztika
 
-
- */
-?>
+*/ ?>
