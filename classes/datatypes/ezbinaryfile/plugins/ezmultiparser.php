@@ -61,6 +61,12 @@ class eZMultiParser
 
     function parseFile( $fileName )
     {
+        if( !$fileName )
+        {
+            eZDebug::writeError( "eztika cannot find the file $fileName; skipping", 'eztika class eZMultiParser' );
+            return false;
+        }
+
         $originalFileSize = filesize( $fileName );
         $this->writeEzTikaLog( '[START] eZMultiParser for File: '. round( $originalFileSize/1024, 2 ) .' KByte '. $fileName );
 
