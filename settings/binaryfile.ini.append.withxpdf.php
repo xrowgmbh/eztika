@@ -33,5 +33,3 @@ TextExtractionTool=./extension/eztika/bin/eztika
 
 [PDFHandlerSettings]
 TextExtractionTool=./extension/eztika/bin/ezpdftotext
- */
-?>
