@@ -28,13 +28,9 @@
 // ## END COPYRIGHT, LICENSE AND WARRANTY NOTICE ##
 //
 
-/*!
-  \class eZMultiParser ezmultiparser.php
-  \ingroup eZKernel
-  \brief The class eZMultiParser handles parsing of multiple files and returns the metadata
-
+/**
+ * The class eZMultiParser handles parsing of multiple files and returns the metadata
  */
-
 class eZMultiParser
 {
     // if true debugmessages will be write to eztika.log
