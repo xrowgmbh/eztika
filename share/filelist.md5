@@ -2,7 +2,7 @@ name: eztika
 version: 1.8
 files_count: 18
 
-bd56921e89d2e76b8cf25ede97af4f21 ant/eztika.properties
+2ee61575d0af5e2068991c8d0a578f22 ant/eztika.properties
 e19cac06e787c440abd8792063564d54 bin/ezpdftotext
 5c347364d16dee3beb6fcd1c6c20a542 bin/eztika
 16d33ca3ec334ea4733d92a61b22f0c4 bin/tika.jar
@@ -15,8 +15,8 @@ e19cac06e787c440abd8792063564d54 bin/ezpdftotext
 21c31b412acbf1d83991ff3e8b7e3085 LICENSE
 96db888c863db2fd226fd285e5db308a README
 dfa559cd9fb7d07ce91968d0039ef7e9 composer.json
-080c3e317fbaa0fb83a6489e188e2a46 ezinfo.php
+899b37bc3eddd5ec225d1e853f8ca899 ezinfo.php
 7554d78f690cf95d18ef24f685adbdca CHANGELOG.txt
 cc6a859ed0fa8359f07ada2927cccaf6 INSTALL.txt
 e687e97109f2533ffba875ac8bbce04b RELEASES.txt
-447705eec16fb800a4b2a05aeed77072 extension.xml
+9e697b2e8419e7f664fc44601af0615f extension.xml
