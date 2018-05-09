@@ -35,8 +35,8 @@ class eZTikaInfo
     {
         return array(
             'Name' => "eZ Tika",
-            'Version' => "1.8.0",
-            'Copyright' => "Copyright 2008-2017 Paul Borgermans",
+            'Version' => "1.9.0",
+            'Copyright' => "Copyright 2008-2018 Paul Borgermans",
             'Info_url' => "http://projects.ez.no/eztika",
             'License' => "GNU General Public License v2.0",
             '3rdparty_software' =>
