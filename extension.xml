@@ -2,8 +2,8 @@
 <software>
     <metadata>
         <name>eZ Tika</name>
-        <version>1.9.0</version>
-        <copyright>Copyright © 2008-2018 Paul Borgermans</copyright>
+        <version>1.10.0</version>
+        <copyright>Copyright © 2008-2019 Paul Borgermans</copyright>
         <license>GNU General Public License v2.0</license>
         <info_url>http://projects.ez.no/eztika</info_url>
 

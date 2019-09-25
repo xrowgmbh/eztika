@@ -1,11 +1,11 @@
 name: eztika
-version: 1.9
+version: 1.10
 files_count: 18
 
 2ee61575d0af5e2068991c8d0a578f22 ant/eztika.properties
 e19cac06e787c440abd8792063564d54 bin/ezpdftotext
 5c347364d16dee3beb6fcd1c6c20a542 bin/eztika
-7458883287f99020211e447350eaeeee bin/tika.jar
+70b9b87cc5abce6fcc4fcd1ba3f712d9 bin/tika.jar
 4e4df590104adca143efa938e1c748dc classes/datatypes/ezbinaryfile/plugins/ezmultiparser.php
 9bd99bfdeb036fcc45d627aad9ec834c settings/binaryfile.ini.append.php
 34ef1885dc0eb2f11bdd22fb42bf3258 settings/binaryfile.ini.append.withxpdf.php
