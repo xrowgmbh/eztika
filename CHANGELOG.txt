@@ -2,6 +2,7 @@ Changelog eztika 1.9 to 1.10
 ===========================
 
 - upgraded bundled tika.jar to 1.22
+- fixed warning "mktime(): You should be using the time() function instead"
 
 Changelog eztika 1.8 to 1.9
 ===========================
