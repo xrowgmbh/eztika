@@ -69,7 +69,7 @@ class eZMultiParser
         $binaryINI = eZINI::instance( 'binaryfile.ini' );
         $textExtractionTool = $binaryINI->variable( 'MultiHandlerSettings', 'TextExtractionTool' );
 
-        $startTime = mktime();
+        $startTime = time();
 
         $tmpName = eZSys::cacheDirectory() . eZSys::fileSeparator(). 'eztika_'. md5( $startTime ) . '.txt';
         $handle = fopen( $tmpName, "w" );
@@ -126,7 +126,7 @@ class eZMultiParser
             eZDebug::writeError( "eztika can not extract content from binaryfile for searchindex \nexec( $cmd )", 'eztika class eZMultiParser' );
         }
 
-        $endTime = mktime();
+        $endTime = time();
         $seconds = $endTime - $startTime;
         $this->writeEzTikaLog( "[END] after $seconds s" );
 

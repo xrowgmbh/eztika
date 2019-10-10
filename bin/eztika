@@ -2,5 +2,6 @@
 
 JAVA=/usr/bin/java
 TIKA_JAR=./extension/eztika/bin/tika.jar
+TIKA_LOG4J=./extension/eztika/bin/log4j.properties
 
-$JAVA -jar $TIKA_JAR --text  --encoding=utf8 $1
+$JAVA -Dlog4j.configuration="file:$TIKA_LOG4J" -jar $TIKA_JAR --text --encoding=utf8 $1 2>>./var/log/eztika.log
