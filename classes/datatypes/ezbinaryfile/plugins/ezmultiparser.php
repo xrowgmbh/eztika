@@ -29,11 +29,11 @@
 //
 
 /**
- * The class eZMultiParser handles parsing of multiple files and returns the metadata
+ * Handles parsing of multiple files and returns the metadata
  */
 class eZMultiParser
 {
-    // if true debugmessages will be write to eztika.log
+    // if true debug messages will be write to eztika.log
     protected $DebugIsEnabled = false;
 
     // if true the tmp cache file for extracted text is not unlinked

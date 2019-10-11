@@ -1,6 +1,6 @@
 {
     "name": "xrow/eztika-ls",
-    "description": " A wrapper script for the standalone Tika toolkit that allows conversion to plain text and indexing of a large variety of binary file types like MsWord, MsOffice, PDF, Excel, ODF, ....",
+    "description": "A wrapper script for the standalone Tika toolkit that allows conversion to plain text and indexing of a large variety of binary file types like MsWord, MsOffice, PDF, Excel, ODF, ....",
     "type": "ezpublish-legacy-extension",
     "license": "GPL-2.0",
     "authors": [
@@ -9,7 +9,6 @@
             "homepage": "http://www.xrow.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "ezsystems/ezpublish-legacy-installer": "*"
     },

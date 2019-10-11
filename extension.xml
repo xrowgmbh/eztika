@@ -5,14 +5,14 @@
         <version>1.10.0</version>
         <copyright>Copyright © 2008-2019 Paul Borgermans</copyright>
         <license>GNU General Public License v2.0</license>
-        <info_url>http://projects.ez.no/eztika</info_url>
+        <info_url>https://github.com/xrowgmbh/eztika</info_url>
 
         <software>
             <uses>
                 <name>Tika</name>
                 <license>Apache License, Version 2.0</license>
-                <info_url>http://tika.apache.org/</info_url>
-                <version>1.14</version>
+                <info_url>https://tika.apache.org/</info_url>
+                <version>1.22</version>
             </uses>
         </software>
     </metadata>

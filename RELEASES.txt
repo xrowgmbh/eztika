@@ -1,4 +1,0 @@
-eztika 1.0 svn revision 3
-eztika 1.1 svn revision 15
-eztika 1.2 svn revision 22
-eztika 1.3 svn revision 26

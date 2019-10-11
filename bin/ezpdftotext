@@ -1,6 +1,9 @@
 #!/bin/sh
-# use this if you experience trouble indexing pdf files
-# requires xpdf installed: see http://www.foolabs.com/xpdf/download.html
+
+# Use this if you experience trouble indexing pdf files
+# Requires xpdf installed: see http://www.foolabs.com/xpdf/download.html
+
 #/<path to>/pdfinfo $1 >> /tmp/ezpdftotext.log
 #/<path to>/pdftotext -enc "UTF-8" -eol unix -nopgbrk $1 -
+
 /usr/bin/pdftotext -enc "UTF-8" -eol unix -nopgbrk $1 -

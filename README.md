@@ -1,11 +1,5 @@
-License for all but the tika.jar file: GNU GPL 2.0
-   tika.jar is licensed with the ASF License (Apache)
-
-Installation: See, INSTALL.txt
-
-Description:
-
-eZ Tika is an extension that enables a handler for converting multiple binary file formats to plain text as used by the search engine (if you enabled those attributes as searcheable)
+eZ Tika is an extension that enables a handler for converting multiple binary file formats to plain text as used
+by the search engine (if you enabled those attributes as searcheable).
 
 Currently, most common office formats are enabled (see also binaryfile.ini.append.php):
 
@@ -26,3 +20,12 @@ Currently, most common office formats are enabled (see also binaryfile.ini.appen
 [application/vnd.openxmlformats-officedocument.spreadsheetml.sheet]
 [application/vnd.openxmlformats-officedocument.presentationml.presentation]
 [application/octet-stream]
+
+## Installation:
+
+See [INSTALL.md](INSTALL.md)
+
+## License:
+
+License for all but the tika.jar file: GNU GPL 2.0
+tika.jar is licensed with the ASF License (Apache)
