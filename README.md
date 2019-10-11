@@ -27,5 +27,5 @@ See [INSTALL.md](INSTALL.md)
 
 ## License:
 
-License for all but the tika.jar file: GNU GPL 2.0
+License for all but the tika.jar file: GNU GPL 2.0.
 tika.jar is licensed with the ASF License (Apache)

@@ -31,20 +31,20 @@ Changelog eztika 1.4 to 1.5
 - update binaryfile.ini.append.php to use eztika executable in eztika extension by default
 - new ini eztika.ini with new debug setting
 
-    [DebugSettings]
-    # Debug-enabled|disabled
-    # if enabled
-    # - write Debug Messages to eztika.log
-    #
-    # Note: an error message to error.log is always written
-    # if eztika can not extract any content from binaryfile
-    Debug-disabled
-
-    # KeepTempFiles-enabled|disabled
-    # if enabled var/cache/ eztika_xxx.txt tmp files are not unlinked
-    # to debug metadata which is extracted from the binaryfile
-    # The setting is only active if Debug-enabled
-    KeepTempFiles-disabled
+        [DebugSettings]
+        # Debug-enabled|disabled
+        # if enabled
+        # - write Debug Messages to eztika.log
+        #
+        # Note: an error message to error.log is always written
+        # if eztika can not extract any content from binaryfile
+        Debug-disabled
+    
+        # KeepTempFiles-enabled|disabled
+        # if enabled var/cache/ eztika_xxx.txt tmp files are not unlinked
+        # to debug metadata which is extracted from the binaryfile
+        # The setting is only active if Debug-enabled
+        KeepTempFiles-disabled
 
 Changelog eztika 1.3 to 1.4
 ---------------------------
