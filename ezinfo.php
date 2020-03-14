@@ -33,13 +33,13 @@ class eZTikaInfo
     {
         return array(
             'Name' => "eZ Tika",
-            'Version' => "1.10.0",
-            'Copyright' => "Copyright 2008-2019 Paul Borgermans",
+            'Version' => "1.11.0",
+            'Copyright' => "Copyright 2008-2020 Paul Borgermans",
             'Info_url' => "https://github.com/xrowgmbh/eztika",
             'License' => "GNU General Public License v2.0",
             '3rdparty_software' =>
                         array ( 'name' => 'Tika',
-                                'Version' => '1.22',
+                                'Version' => '1.23',
                                 'copyright' => 'The Apache Software Foundation.',
                                 'license' => 'Apache License, Version 2.0',
                                 'info_url' => 'https://tika.apache.org/' ) );

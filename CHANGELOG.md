@@ -1,3 +1,8 @@
+Changelog eztika 1.10 to 1.11
+----------------------------
+
+- upgraded bundled tika.jar to 1.23
+
 Changelog eztika 1.9 to 1.10
 ----------------------------
 
@@ -39,7 +44,7 @@ Changelog eztika 1.4 to 1.5
         # Note: an error message to error.log is always written
         # if eztika can not extract any content from binaryfile
         Debug-disabled
-    
+
         # KeepTempFiles-enabled|disabled
         # if enabled var/cache/ eztika_xxx.txt tmp files are not unlinked
         # to debug metadata which is extracted from the binaryfile
