@@ -1,3 +1,8 @@
+Changelog eztika 1.11 to 1.12
+----------------------------
+
+- upgraded bundled tika.jar to 1.24.1
+
 Changelog eztika 1.10 to 1.11
 ----------------------------
 
