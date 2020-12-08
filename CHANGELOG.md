@@ -1,3 +1,10 @@
+Changelog eztika 1.12 to 1.13
+----------------------------
+
+- upgraded bundled tika.jar to 1.25
+- improved the shell scripts used to start Tika and PdfToText: they can now be configured via usage of env vars JAVA,
+  TIKA_JAR, TIKA_LOG4J and PDFTOTEXT
+
 Changelog eztika 1.11 to 1.12
 ----------------------------
 

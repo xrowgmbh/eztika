@@ -6,4 +6,6 @@
 #/<path to>/pdfinfo $1 >> /tmp/ezpdftotext.log
 #/<path to>/pdftotext -enc "UTF-8" -eol unix -nopgbrk $1 -
 
-/usr/bin/pdftotext -enc "UTF-8" -eol unix -nopgbrk $1 -
+PDFTOTEXT=${PDFTOTEXT:-/usr/bin/pdftotext}
+
+"$PDFTOTEXT" -enc "UTF-8" -eol unix -nopgbrk "$1" -

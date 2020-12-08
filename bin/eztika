@@ -1,7 +1,7 @@
 #!/bin/sh
 
-JAVA=/usr/bin/java
-TIKA_JAR=./extension/eztika/bin/tika.jar
-TIKA_LOG4J=./extension/eztika/bin/log4j.properties
+JAVA=${JAVA:-/usr/bin/java}
+TIKA_JAR=${TIKA_JAR:-./extension/eztika/bin/tika.jar}
+TIKA_LOG4J=${TIKA_LOG4J:-./extension/eztika/bin/log4j.properties}
 
-$JAVA -Dlog4j.configuration="file:$TIKA_LOG4J" -jar $TIKA_JAR --text --encoding=utf8 $1 2>>./var/log/eztika.log
+"$JAVA" -Dlog4j.configuration="file:$TIKA_LOG4J" -jar "$TIKA_JAR" --text --encoding=utf8 "$1" 2>>./var/log/eztika.log
