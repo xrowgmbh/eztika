@@ -1,3 +1,8 @@
+Changelog eztika 1.13 to 1.14
+----------------------------
+
+- upgraded bundled tika.jar to 1.28, fixing security issues related to log4j
+
 Changelog eztika 1.12 to 1.13
 ----------------------------
 
