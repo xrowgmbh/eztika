@@ -1,3 +1,8 @@
+Changelog eztika 1.14 to 1.15
+----------------------------
+
+- upgraded bundled tika.jar to 1.28.5
+
 Changelog eztika 1.13 to 1.14
 ----------------------------
 
