@@ -1,3 +1,8 @@
+Changelog eztika 1.15 to xxx (unreleased)
+----------------------------------------
+
+- added testing of the extension via GitHub Actions
+
 Changelog eztika 1.14 to 1.15
 ----------------------------
 
