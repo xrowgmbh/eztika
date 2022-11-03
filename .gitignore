@@ -1,1 +1,7 @@
 /.idea/
+/composer_*.json
+/composer_*.lock
+/phpunit.xml
+/teststack
+/vendor
+/vendor_*

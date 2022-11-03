@@ -1,0 +1,43 @@
+-
+    type: content_type
+    mode: create
+    content_type_group: 1
+    identifier: eztika_test_001
+    name: eZTika Test Class 001
+    name_pattern: '<name>'
+    is_container: true
+    always_available: true
+    attributes:
+        -
+            type: ezstring
+            name: Name
+            identifier: name
+        -
+            type: ezbinaryfile
+            name: File
+            identifier: file
+            searchable: true
+
+-
+    type: content
+    mode: create
+    content_type: eztika_test_001
+    parent_location: 2
+    attributes:
+        name: hello world 1
+        file:
+            # we assume the tests run from the 'web' folder
+            path: ../../../../Tests/dsl/good/files/helloworld.pdf
+            filename: helloworld.pdf
+
+-
+    type: content
+    mode: create
+    content_type: eztika_test_001
+    parent_location: 2
+    attributes:
+        name: hello world 2
+        file:
+            # we assume the tests run from the 'web' folder
+            path: ../../../../Tests/dsl/good/files/helloworld.odt
+            filename: helloworld.odt

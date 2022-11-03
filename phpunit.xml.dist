@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- some of the tests we execute do generate php warnings, sadly... we have to swallow them -->
+<phpunit colors="true" bootstrap="Tests/bootstrap.php" convertNoticesToExceptions="false" convertWarningsToExceptions="false">
+
+    <php>
+        <!-- the following have been moved to env vars, as they might vary depending on setups -->
+        <!--<server name="KERNEL_DIR" value="vendor/ezsystems/ezplatform/app" />
+        <server name="SYMFONY_ENV" value="behat" />-->
+        <server name="SYMFONY_DEBUG" value="false" />
+        <!-- the value 'disabled' can also be used, but not for very old versions of sf phpunit-bridge -->
+        <env name="SYMFONY_DEPRECATIONS_HELPER" value="weak" />
+    </php>
+
+    <!-- code coverage reporting -->
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./bin</directory>
+            <directory suffix=".php">./classes</directory>
+        </whitelist>
+    </filter>
+
+    <testsuites>
+        <testsuite name="eZTika Test Suite">
+            <directory>./Tests/phpunit/</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
