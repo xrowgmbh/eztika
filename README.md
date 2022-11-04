@@ -91,9 +91,9 @@ You can even keep multiple test stacks available in parallel, by using different
 - run the tests via: `./teststack/teststack -e .euts.env.local runtests`
 
 
-[![License](https://poser.pugx.org/xrowgmbh/eztika/license)](https://packagist.org/packages/xrowgmbh/eztika)
-[![Latest Stable Version](https://poser.pugx.org/xrowgmbh/eztika/v/stable)](https://packagist.org/packages/xrowgmbh/eztika)
-[![Total Downloads](https://poser.pugx.org/xrowgmbh/eztika/downloads)](https://packagist.org/packages/xrowgmbh/eztika)
+[![License](https://poser.pugx.org/xrow/eztika-ls/license)](https://packagist.org/packages/xrow/eztika-ls)
+[![Latest Stable Version](https://poser.pugx.org/xrow/eztika-ls/v/stable)](https://packagist.org/packages/xrow/eztika-ls)
+[![Total Downloads](https://poser.pugx.org/xrow/eztika-ls/downloads)](https://packagist.org/packages/xrow/eztika-ls)
 
 [![Build Status](https://github.com/xrowgmbh/eztika/actions/workflows/ci.yml/badge.svg)](https://github.com/xrowgmbh/eztika/actions/workflows/ci.yml)
 [![Code Coverage](https://codecov.io/gh/xrowgmbh/eztika/branch/main/graph/badge.svg)](https://codecov.io/gh/xrowgmbh/eztika/tree/master)
