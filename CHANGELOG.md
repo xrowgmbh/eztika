@@ -1,5 +1,7 @@
-Changelog eztika 1.15 to xxx (unreleased)
-----------------------------------------
+Changelog eztika 1.15 to 2.0
+----------------------------
+
+- upgraded bundled tika.jar to 2.5.0
 
 - added testing of the extension via GitHub Actions
 
